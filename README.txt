@@ -254,3 +254,8 @@ V16:
 - La curva de coste ahora solo cuenta cartas del Main Deck.
 - Tokens, héroe, pócimas y Second Deck ya no aparecen en la curva.
 - Añadido promedio de coste del Main Deck.
+
+V17:
+- Regenerado desde el nuevo cards.json.
+- Las armas leen Una mano/Dos manos desde t20: Arma (Una mano), Arma (Dos manos).
+- Se añade weaponHands al cards.json web.

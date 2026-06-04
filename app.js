@@ -348,7 +348,7 @@ function renderCards() {
         <div class="card-meta">
           ${escapeHtml(card.class)} · ${escapeHtml(getDisplayCategory(card))}
           ${card.subclass ? ` · ${escapeHtml(card.subclass)}` : ""}
-          ${card.subtype ? ` · ${escapeHtml(card.subtype)}` : ""}
+          ${getSubtypeLabel(card) ? ` · ${escapeHtml(getSubtypeLabel(card))}` : ""}
         </div>
 
         <div class="card-text">${escapeHtml(card.text || "")}</div>
@@ -363,6 +363,11 @@ function renderCards() {
 
     cardsGrid.appendChild(cardElement);
   }
+}
+
+function getSubtypeLabel(card) {
+  if (card.type === "Arma" && card.weaponHands) return card.weaponHands;
+  return card.subtype || "";
 }
 
 function getUnavailableReason(card) {
@@ -707,8 +712,9 @@ function getTotalDeckCount() {
 }
 
 
+
 function getPhysicalMaxCopies(card) {
-  const name = card.name.toLowerCase().trim();
+  const name = card.name.toLowerCase();
   const subtype = (card.subtype || "").toLowerCase();
 
   if (card.type === "Arma") return 1;
@@ -723,12 +729,11 @@ function getPhysicalMaxCopies(card) {
     "victima de la dama toxica": 4
   };
 
-  if (tokenLimits[name] !== undefined) {
-    return tokenLimits[name];
-  }
+  if (tokenLimits[name] !== undefined) return tokenLimits[name];
 
   return getMaxCopies(card);
 }
+
 function shortImageName(value) {
   return cleanImageFilename(value).replace(/\.(png|jpg|jpeg|webp|gif)$/i, "");
 }

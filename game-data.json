@@ -13,7 +13,7 @@
               "name": "Flamel, mente envenenada",
               "image": "Opera Instantánea_2025-05-07_104434_creator.nightcafe.studio.png",
               "health": 30,
-              "classImage": "Emboscada.png",
+              "classImage": "",
               "subclassImage": "Opera Instantánea_2025-02-01_145955_graphicriver.net.png"
             }
           ]
@@ -27,7 +27,7 @@
               "name": "Rampeish, el demonio",
               "image": "Opera Instantánea_2025-05-07_103949_creator.nightcafe.studio.png",
               "health": 30,
-              "classImage": "Emboscada.png",
+              "classImage": "",
               "subclassImage": "Frenesí.png"
             }
           ]
@@ -73,7 +73,7 @@
             {
               "id": "tlzdjhtgvor",
               "name": "Ofhelia de la Santa Luz",
-              "image": "Opera Instantánea_2025-05-07_095829_creator.nightcafe.studio.png",
+              "image": "Opera Instantánea_2025-05-07_095829_creator.nightcafe",
               "health": 25,
               "classImage": "Opera Instantánea_2025-02-11_114204_graphicriver.net.png",
               "subclassImage": "Opera Instantánea_2025-02-11_112657_graphicriver.net.png"
