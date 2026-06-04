@@ -1,0 +1,8 @@
+Coloca aquí las imágenes exportadas desde Dextrous.
+
+Importante:
+- El nombre del archivo debe coincidir con el campo image de cards.json.
+- Ejemplo: si cards.json dice "DISPARO CERTERO.jpg", aquí debe existir:
+  images/DISPARO CERTERO.jpg
+
+Puedes copiar aquí todas las imágenes de cartas exportadas desde Dextrous.
