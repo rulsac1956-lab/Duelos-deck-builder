@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Duelos - Constructor de Mazos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <h1>Duelos</h1>
+      <p>Base de cartas y constructor de mazos</p>
+    </div>
+    <div class="header-stats">
+      <span id="totalCardsLabel">0 cartas</span>
+    </div>
+  </header>
+
+  <section id="setupScreen" class="setup-screen">
+    <div class="setup-card">
+      <div class="setup-top">
+        <button id="backStepButton" class="secondary-button hidden">Volver</button>
+        <button id="resetSetupButton" class="secondary-button hidden">Cambiar selección</button>
+      </div>
+
+      <h2 id="setupTitle">Escoge una clase</h2>
+      <p id="setupSubtitle">Primero elige la clase base del mazo.</p>
+
+      <div id="choiceGrid" class="choice-grid"></div>
+    </div>
+  </section>
+
+  <main id="builderScreen" class="layout hidden">
+    <section class="cards-section">
+      <div class="deck-identity">
+        <strong id="deckIdentityText">Mazo</strong>
+        <button id="changeSelectionButton" class="secondary-button">Cambiar héroe</button>
+      </div>
+
+      <div class="toolbar">
+        <input id="searchInput" type="text" placeholder="Buscar por nombre, texto o palabra clave..." />
+
+        <select id="classFilter">
+          <option value="">Todas las clases</option>
+        </select>
+
+        <select id="typeFilter">
+          <option value="">Todos los tipos</option>
+        </select>
+
+        <select id="costFilter">
+          <option value="">Todos los costes</option>
+          <option value="0">Coste 0</option>
+          <option value="1">Coste 1</option>
+          <option value="2">Coste 2</option>
+          <option value="3">Coste 3</option>
+          <option value="4">Coste 4</option>
+          <option value="5">Coste 5</option>
+          <option value="6+">Coste 6+</option>
+          <option value="none">Sin coste</option>
+        </select>
+      </div>
+
+      <div class="results-line">
+        <span id="resultsCount">0 resultados</span>
+      </div>
+
+      <div id="cardsGrid" class="cards-grid"></div>
+    </section>
+
+    <aside class="deck-panel">
+      <h2>Mazo</h2>
+
+      <div class="selected-hero-box">
+        <div id="selectedHeroName">Sin héroe</div>
+        <small id="selectedHeroInfo"></small>
+      </div>
+
+      <div class="deck-stats">
+        <span>Main Deck: <strong id="deckTotal">0/30</strong></span>
+        <span>Únicas: <strong id="uniqueTotal">0</strong></span>
+      </div>
+
+      <section class="cost-chart-section">
+        <h3>Curva de coste</h3>
+        <div id="averageCostLabel" class="average-cost">Promedio: 0.00</div>
+        <div id="costChart" class="cost-chart"></div>
+      </section>
+
+      <section>
+        <h3>Lista</h3>
+        <div id="deckList" class="deck-list"></div>
+      </section>
+
+      <section>
+        <h3>Exportar para Untap.in</h3>
+        <textarea id="exportText" readonly placeholder="Aquí aparecerá el mazo..."></textarea>
+        <div class="button-row">
+          <button id="copyButton" class="primary-button">Copiar</button>
+          <button id="downloadButton" class="primary-button">Exportar mazo</button>
+          <button id="clearButton" class="secondary-button">Vaciar</button>
+        </div>
+        <input id="deckUrlOutput" class="deck-url-output" readonly placeholder="Aquí aparecerá una URL local de exportación..." />
+      </section>
+    </aside>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

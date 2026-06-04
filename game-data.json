@@ -1,0 +1,244 @@
+{
+  "classes": [
+    {
+      "name": "Asesino",
+      "image": "Emboscada.png",
+      "subclasses": [
+        {
+          "name": "Alquimista",
+          "image": "Opera Instantánea_2025-02-01_145955_graphicriver.net.png",
+          "heroes": [
+            {
+              "id": "8c8o70rfqr6",
+              "name": "Flamel, mente envenenada",
+              "image": "Opera Instantánea_2025-05-07_104434_creator.nightcafe.studio.png",
+              "health": 30,
+              "classImage": "Emboscada.png",
+              "subclassImage": "Opera Instantánea_2025-02-01_145955_graphicriver.net.png"
+            }
+          ]
+        },
+        {
+          "name": "Hojas Danzantes",
+          "image": "Frenesí.png",
+          "heroes": [
+            {
+              "id": "6fuojpczrnf",
+              "name": "Rampeish, el demonio",
+              "image": "Opera Instantánea_2025-05-07_103949_creator.nightcafe.studio.png",
+              "health": 30,
+              "classImage": "Emboscada.png",
+              "subclassImage": "Frenesí.png"
+            }
+          ]
+        },
+        {
+          "name": "Sombras Gemelas",
+          "image": "Paso Sombrío.png",
+          "heroes": [
+            {
+              "id": "kuaklf0wc5b",
+              "name": "Thuls, Mortacechador",
+              "image": "Opera Instantánea_2025-05-07_104834_creator.nightcafe.studio.png",
+              "health": 25,
+              "classImage": "Emboscada.png",
+              "subclassImage": "Paso Sombrío.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Paladín",
+      "image": "Opera Instantánea_2025-02-11_114204_graphicriver.net.png",
+      "subclasses": [
+        {
+          "name": "Alas de acero",
+          "image": "Opera Instantánea_2025-05-06_115902_graphicriver.net.png",
+          "heroes": [
+            {
+              "id": "6cvzmb093ze",
+              "name": "Mograine, Ascendido",
+              "image": "Opera Instantánea_2025-05-07_095743_creator.nightcafe.studio.png",
+              "health": 30,
+              "classImage": "Opera Instantánea_2025-02-11_114204_graphicriver.net.png",
+              "subclassImage": "Opera Instantánea_2025-05-06_115902_graphicriver.net.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragón de Luz",
+          "image": "Opera Instantánea_2025-02-11_112657_graphicriver.net.png",
+          "heroes": [
+            {
+              "id": "tlzdjhtgvor",
+              "name": "Ofhelia de la Santa Luz",
+              "image": "Opera Instantánea_2025-05-07_095829_creator.nightcafe.studio.png",
+              "health": 25,
+              "classImage": "Opera Instantánea_2025-02-11_114204_graphicriver.net.png",
+              "subclassImage": "Opera Instantánea_2025-02-11_112657_graphicriver.net.png"
+            }
+          ]
+        },
+        {
+          "name": "Sol Eclipsado",
+          "image": "Opera Instantánea_2025-05-06_120008_graphicriver.net.png",
+          "heroes": [
+            {
+              "id": "nh4r81j9ki",
+              "name": "Rabia, luz trémula",
+              "image": "Opera Instantánea_2025-05-02_012247_creator.nightcafe.studio.png",
+              "health": 30,
+              "classImage": "Opera Instantánea_2025-02-11_114204_graphicriver.net.png",
+              "subclassImage": "Opera Instantánea_2025-05-06_120008_graphicriver.net.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tecnomago",
+      "image": "Opera Instantánea_2025-02-05_210314_graphicriver.net.png",
+      "subclasses": [
+        {
+          "name": "Artificiero",
+          "image": "Opera Instantánea_2025-05-06_110637_graphicriver.net.png",
+          "heroes": [
+            {
+              "id": "9p1jn6ijy6f",
+              "name": "Uriel, el Aprendiz",
+              "image": "Opera Instantánea_2025-05-07_104546_creator.nightcafe.studio.png",
+              "health": 28,
+              "classImage": "Opera Instantánea_2025-02-05_210314_graphicriver.net.png",
+              "subclassImage": "Opera Instantánea_2025-05-06_110637_graphicriver.net.png"
+            }
+          ]
+        },
+        {
+          "name": "Manáfago",
+          "image": "Opera Instantánea_2025-05-06_110737_graphicriver.net.png",
+          "heroes": [
+            {
+              "id": "fe2vtrealgo",
+              "name": "Isol, Engendro de maná",
+              "image": "Opera Instantánea_2025-05-02_012840_creator.nightcafe.studio.png",
+              "health": 28,
+              "classImage": "Opera Instantánea_2025-02-05_210314_graphicriver.net.png",
+              "subclassImage": "Opera Instantánea_2025-05-06_110737_graphicriver.net.png"
+            }
+          ]
+        },
+        {
+          "name": "Saqueador",
+          "image": "Opera Instantánea_2025-02-05_210504_graphicriver.net.png",
+          "heroes": [
+            {
+              "id": "23ny8dw49lh",
+              "name": "Techis, Ladrón de reliquias",
+              "image": "Opera Instantánea_2024-01-30_113352_creator.nightcafe.studio.png",
+              "health": 30,
+              "classImage": "Opera Instantánea_2025-02-05_210314_graphicriver.net.png",
+              "subclassImage": "Opera Instantánea_2025-02-05_210504_graphicriver.net.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nigromante",
+      "image": "Opera Instantánea_2025-02-05_220710_graphicriver.net.png",
+      "subclasses": [
+        {
+          "name": "Bruja de Sangre",
+          "image": "Opera Instantánea_2025-02-05_211153_graphicriver.net.png",
+          "heroes": [
+            {
+              "id": "fwb494mpzl",
+              "name": "Hyung Daegu, Bruja carmesí",
+              "image": "Opera Instantánea_2025-05-07_103929_creator.nightcafe.studio.png",
+              "health": 25,
+              "classImage": "Opera Instantánea_2025-02-05_220710_graphicriver.net.png",
+              "subclassImage": "Opera Instantánea_2025-02-05_211153_graphicriver.net.png"
+            }
+          ]
+        },
+        {
+          "name": "Reanimador",
+          "image": "Opera Instantánea_2025-02-05_210452_graphicriver.net.png",
+          "heroes": [
+            {
+              "id": "164fgfupr2a",
+              "name": "Gothik, el exánime",
+              "image": "Opera Instantánea_2025-05-07_110136_creator.nightcafe.studio.png",
+              "health": 28,
+              "classImage": "Opera Instantánea_2025-02-05_220710_graphicriver.net.png",
+              "subclassImage": "Opera Instantánea_2025-02-05_210452_graphicriver.net.png"
+            }
+          ]
+        },
+        {
+          "name": "Ritualista Oscuro",
+          "image": "Opera Instantánea_2025-02-05_205119_graphicriver.net.png",
+          "heroes": [
+            {
+              "id": "os4h78cldid",
+              "name": "Zarín, el Pesteador",
+              "image": "Opera Instantánea_2024-01-29_003609_creator.nightcafe.studio.png",
+              "health": 28,
+              "classImage": "Opera Instantánea_2025-02-05_220710_graphicriver.net.png",
+              "subclassImage": "Opera Instantánea_2025-02-05_205119_graphicriver.net.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ingeniera de Conquista",
+      "image": "Opera Instantánea_2025-05-06_112026_graphicriver.net.png",
+      "subclasses": [
+        {
+          "name": "\"Mejoradora\"",
+          "image": "Opera Instantánea_2025-05-06_111858_graphicriver.net.png",
+          "heroes": [
+            {
+              "id": "zjpk1bluboc",
+              "name": "Kaneth, más allá de lo mortal",
+              "image": "Opera Instantánea_2025-05-07_103815_creator.nightcafe.studio.png",
+              "health": 28,
+              "classImage": "Opera Instantánea_2025-05-06_112026_graphicriver.net.png",
+              "subclassImage": "Opera Instantánea_2025-05-06_111858_graphicriver.net.png"
+            }
+          ]
+        },
+        {
+          "name": "Estratega Belicista",
+          "image": "Opera Instantánea_2025-05-06_111625_graphicriver.net.png",
+          "heroes": [
+            {
+              "id": "mugcg0bv7ro",
+              "name": "Raina, la Imbatible",
+              "image": "Cazadora de la conquista.png",
+              "health": 27,
+              "classImage": "Opera Instantánea_2025-05-06_112026_graphicriver.net.png",
+              "subclassImage": "Opera Instantánea_2025-05-06_111625_graphicriver.net.png"
+            }
+          ]
+        },
+        {
+          "name": "Revolucionaria",
+          "image": "Opera Instantánea_2025-05-06_111613_graphicriver.net.png",
+          "heroes": [
+            {
+              "id": "76nf97c5a8l",
+              "name": "Sophia del siglo de las Luces",
+              "image": "Opera Instantánea_2025-05-07_103704_creator.nightcafe.studio.png",
+              "health": 30,
+              "classImage": "Opera Instantánea_2025-05-06_112026_graphicriver.net.png",
+              "subclassImage": "Opera Instantánea_2025-05-06_111613_graphicriver.net.png"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
